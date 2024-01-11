@@ -1,3 +1,3 @@
 class Comment < ApplicationRecord
-  belong_to :entry
+  belongs_to :entry
 end
